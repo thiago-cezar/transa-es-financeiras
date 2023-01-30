@@ -20,7 +20,7 @@ source myenv/bin/activate
 - Apos ativar o ambiente virtual instale as dependências
 - `pip install -r requirements.txt`
 
-### 2. Instale o PostgreSQL em seu sistema operacional.
+### 3. Instale o PostgreSQL em seu sistema operacional.
 
 - [Link para a instalação](https://www.postgresql.org/download/)
 - Crie um banco de dados no PostgreSQL usando o console de comando.
@@ -39,7 +39,7 @@ source myenv/bin/activate
 - `python manage.py makemigrations`
 - `python manage.py migrate`
 
-### 5. Inicie o servidor de desenvolvimento, usando o seguinte comando:
+### 6. Inicie o servidor de desenvolvimento, usando o seguinte comando:
 
 - `python manage.py runserver`
 - Agora, você pode acessar a API em [http://localhost:8000/api/](http://localhost:8000/api/).
