@@ -44,7 +44,7 @@ source myenv/bin/activate
 - `python manage.py runserver`
 - Agora, você pode acessar a API em [http://localhost:8000/api/](http://localhost:8000/api/).
 
-# API CNAB, movimentações financeiras
+# API CNAB movimentações financeiras
 
 ## Introdução
 
@@ -76,6 +76,6 @@ Para isso, utilizamos o DjangoRestFramework como framework principal e o Python-
 
 ## Conclusão
 
-Esta API fornece uma interface simples e intuitiva para a interação com um banco de dados relacional e para envio de arquivos, facilitando a integração com outras aplicações.
+Esta API fornece uma interface simples e intuitiva para a interação com um banco de dados relacional e para envio de arquivos .txt com códigos cnab que serão lidos e armazenados, facilitando a integração com outras aplicações.
 
 Além disso, a utilização de tecnologias como DjangoRestFramework e Python-dotenv garante uma aplicação segura e escalável.
